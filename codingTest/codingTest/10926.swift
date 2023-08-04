@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+let str = readLine()!
+
+//방법1
+print(str + "??!")
+
+//방법2
+print(str,"??!", separator: "")
