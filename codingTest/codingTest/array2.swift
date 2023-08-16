@@ -31,3 +31,20 @@ let nums = readLine()!.split(separator: " ").map{ Int(String($0))! }
 
 print(nums.min()!, nums.max()!, terminator: " ")
 
+
+//문제 10810
+let condition = readLine()!.split(separator: " ").map{ Int($0)! }
+
+var ballArray = [Int](repeating: 0, count: condition[0])
+
+for _ in 1...condition[1] {
+    let input = readLine()!.split(separator: " ").map{ Int($0)! }
+    var i = input[0] - 1
+    var j = input[1] - 1
+    let cnt = input[0] - input[1] + 1
+    
+    ballArray.replaceSubrange(i...j, with: [Int](repeating: input[2], count: j - i + 1))
+}
+
+print(ballArray.map{String($0)}.joined(separator: " "))
+                              
