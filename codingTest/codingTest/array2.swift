@@ -48,3 +48,21 @@ for _ in 1...condition[1] {
 
 print(ballArray.map{String($0)}.joined(separator: " "))
                               
+
+//문제 10813
+let condition = readLine()!.split(separator: " ").map{ Int($0)! }
+let n = condition[0], m = condition[1]
+
+var box = [Int](0...n)
+
+for _ in 1...m {
+    let input = readLine()!.split(separator: " ").map{ Int($0)! }
+    let start = input[0], end = input[1]
+    var temp = 0
+    
+    temp = box[start]
+    box[start] = box[end]
+    box[end] = temp
+}
+
+box[1...].forEach{ print($0, terminator: " ") }
