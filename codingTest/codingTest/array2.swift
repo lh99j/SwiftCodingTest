@@ -66,3 +66,20 @@ for _ in 1...m {
 }
 
 box[1...].forEach{ print($0, terminator: " ") }
+
+//문제 5597
+var students = [Int](repeating: 0, count: 30)
+
+for _ in 1...28 {
+    var student = Int(readLine()!)! - 1
+    
+    students[student] = 1
+}
+
+
+for i in 0..<30{
+    if students[i] == 0 {
+        print(i + 1)
+    }
+}
+
