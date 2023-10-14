@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		0C29B2672A7CCDA700F492C4 /* 18108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18108.swift; sourceTree = "<group>"; };
 		0C29B2692A7CD55F00F492C4 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
+		0C2BFF242A8F18EA00B82864 /* string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string.swift; sourceTree = "<group>"; };
 		0C362ED42A8A03310066C327 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0C4139DB2A7A39AA00F64AD6 /* codingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C57AA482A80C4FA00D581C2 /* codingTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "codingTest-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				0C92B0DE2A85DBBC003856FB /* array1.swift */,
 				0C92B0E02A85E4E4003856FB /* array2.swift */,
 				0C362ED42A8A03310066C327 /* main.swift */,
+				0C2BFF242A8F18EA00B82864 /* string.swift */,
 			);
 			path = codingTest;
 			sourceTree = "<group>";
